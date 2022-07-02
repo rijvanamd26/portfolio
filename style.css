@@ -1,0 +1,277 @@
+html,body{
+    overflow-x: hidden;
+  }
+  body{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Staatliches', cursive;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  }
+  /*home*/
+  .hm{
+    background-color: black;
+  }
+  .navbar li a:hover{
+    width:100%;
+  }
+  #nav-text1{
+    color:rgb(252, 252, 253);
+    font-weight: bold;
+  }
+  #nav-text1:hover{
+    color:red;
+  }
+  .home-text{
+    
+      color:rgb(242, 242, 250);
+     
+  }
+  #about{
+      color:black;
+  }
+  .header_wrapper .nav-item .nav-link.active
+  .header_wrapper .nav-item .nav-link:hover{
+      color:rgb(229, 53, 53);
+  }
+  .col{
+      text-align:center;
+  }
+  
+  .skills{
+      background:url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-031.jpg") center;
+      background-size:cover;
+      color:rgb(48, 36, 36);
+    }
+    
+    .profiles{
+      background:url("../images/bluebg3.jpg") fixed center;
+      background-size:cover;
+      color:white;
+    }
+    .footer-bgdark{
+      background-color:black;
+    }
+    
+    .cnt{
+      color:black;
+      background-image: url("../images/hm.jpg") fixed center;
+      background-repeat:no-repeat;
+    }
+   
+    .navbar .navbar-nav .nav-link:hover {
+      color: #000000;
+    }
+    .navbar .navbar-nav .nav-link {
+      color: rgb(238, 57, 37);
+      font-size: 1.1em;
+    }
+    @media only screen and (min-width: 992px) {
+      .navbar {
+        padding: 0;
+      }
+      .navbar .navbar-nav .nav-link {
+        padding: 1em 0;
+      }
+      .navbar .navbar-nav .nav-item {
+        margin: 0 1em;
+      }
+    }
+    .navbar .navbar-nav .nav-item {
+      position: relative;
+    }
+    .navbar .navbar-nav .nav-item::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color:rgb(227, 45, 32);
+      width: 0%;
+      content: "";
+      height: 4px;
+    }
+    .navbar .navbar-nav .nav-item:hover::after {
+      width: 100%;
+    }
+  
+    /*skills*/
+    .skills-bg{
+      background-color: rgb(17, 7, 7);
+    }
+    .progress-bar{
+      padding:50px 0px;
+    }
+    .progress_icon{
+      color:#eee;
+      font-size:40px;
+      margin-bottom:10px;
+      display:flex;
+    }
+    .progress-bar h3{
+      color:#a2d5e5;
+      font-size:16px;
+      text-transform:uppercase;
+    }
+    .progress-bar h3 span{
+      float:right;
+      padding-bottom: 4px;;
+    }
+    .progress-bar ul li{
+      padding:10px 30px;
+    }
+    .bar{
+      height:6px;
+      background:rgba(170,170,170,0.34);
+      border-radius:5px;
+      margin-top:10px;
+    }
+    .bar span{
+      height:6px;
+      float:left;
+      border-radius:5px;
+    }
+    .c{
+      background:white;
+      width:85%;
+      animation:c 3s;
+    }
+    @keyframes c{
+      0%{
+        width:0%;
+      }
+      100%{
+        width:85%;
+      }
+    }
+    .cpp{
+      background:#3522c6;
+      width:85%;
+      animation:cpp 3s;
+    }
+    @keyframes cpp{
+      0%{
+        width:0%;
+      }
+      100%{
+        width:85%;
+      }
+    }
+    .html{
+      background:#d84d2c;
+      width:90%;
+      animation:html 3s;
+    }
+    @keyframes html{
+      0%{
+        width:0%;
+      }
+      100%{
+        width:90%;
+      }
+    }
+    .css{
+      background:#1bc53a;
+      width:75%;
+      animation:css 3s;
+    }
+    @keyframes css{
+      0%{
+        width:0%;
+      }
+      100%{
+        width:75%;
+      }
+    }
+    .bootstrap{
+      background:#2f27c2;;
+      width:70%;
+      animation:bootstrap 3s;
+    }
+    @keyframes bootstrap{
+      0%{
+        width:0%;
+      }
+      100%{
+        width:70%;
+      }
+    }
+    .javascript{
+      background:#f42fed;
+      width:50%;
+      animation:javascript 3s;
+    }
+    @keyframes javascript{
+      0%{
+        width:0%;
+      }
+      100%{
+        width:50%;
+      }
+    }
+    .java{
+      background:#f75843;
+      width:60%;
+      animation:java 3s;
+    }
+    @keyframes java{
+      0%{
+        width:0%;
+      }
+      100%{
+        width:60%;
+      }
+    }
+    .jquery{
+      background:#554cfd;
+      width:40%;
+      animation:jquery 3s;
+    }
+    @keyframes jquery{
+      0%{
+        width:0%;
+      }
+      100%{
+        width:40%;
+      }
+    }
+    /*profiles*/
+    #profiles{
+      background-color: black;
+    }
+    .cnt{
+      background:url('images/hm.jpg') fixed center;
+      background-repeat:no-repeat;
+    }
+    .skill-li{
+        padding-left: 0;
+    }
+    .counter{
+      animation-duration: 1s;
+      animation-delay: 0s;
+    }
+    #projects{
+        background-color: whitesmoke;
+    }
+    #certifications{
+        background-color:rgba(255, 255, 255, 0.9);
+    }
+    .cnt-dec{
+        text-decoration: none;
+     cursor: pointer;
+    }
+    @media only screen and (max-width: 1000px) {
+        .iframe{
+            width:320px;
+        }
+        #about,#home{
+            text-align:center;
+        }
+        .name{
+            padding:10px 10px;
+        }
+        .details{
+            padding:0px 20px;
+        }
+    
+      }
