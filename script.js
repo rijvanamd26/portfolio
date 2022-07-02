@@ -1,20 +1,3 @@
-/*(function($){
-    "use strict" //defines that js should be executed in strict mode
-    //Typed initiate
-    if($('.typed-text-output').length==1){
-        var typed_strings=$('.typed-text').text();
-        var typed=new Typed('.typed-text-output',{
-            strings:typed_strings.split(', '),
-            typeSpee:100,
-            backSpeed:20,
-            smartBackspace:false,
-            loop:true
-        });
-    }
-})(jquery);*/
-$("button").on("click",function(){
-    $("h3").css("color","yellow");
-});
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
